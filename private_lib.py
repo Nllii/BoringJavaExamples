@@ -14,3 +14,5 @@ class privateMathLib(object):
     
     
 
+print(privateMathLib().subtraction(1, 2))
+print(privateMathLib().addition(1, 2))

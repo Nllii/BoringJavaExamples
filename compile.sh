@@ -17,14 +17,15 @@ cc(){
     g++ -shared -fPIC "$1" -o  "$2"
 }
 
-complieJ(){
+compileJ(){
     javaFile=${1::-5}
     echo "compiling java file: $1 output filename:$javaFile"
+    cd ./Exercise
     javac "$1" 
+
     echo "java file: $javaFile"
-    # jar cvf "$javaFile.jar" "$javaFile.class"
     echo ""
-    java "$javaFile"
+    java "$javaFile".java
 
 
 
