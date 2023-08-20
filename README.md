@@ -1,2 +1,7 @@
 # BoringJavaExamples
 Basic Java Examples from High School. 
+
+Some of the basic Examples of Java that I did in High School. Just for a references and fun. 
+You really don't need a fancy IDE to run these. Just a simple text editor(VIM) and the command line. 
+
+
