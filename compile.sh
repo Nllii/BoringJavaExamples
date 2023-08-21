@@ -4,13 +4,19 @@
 
 push(){
     git add .
-    git commit -am "added scripts"
+    git commit -am "added scripts and updates"
     git push 
 }
 
 
-
-
+memJ(){
+    jconsole -J-Xmx512m
+}
+mem(){
+    echo "compiling binary file: $1 output:$2"
+    gcc -g "$1" -o "$2"
+    valgrind --leak-check=full --show-leak-kinds=all ./"$2"
+}
 
 cc(){
     echo "compiling c++ file: $1 output:$2"
