@@ -6,8 +6,16 @@ Trying to remember the basics of Java.
 You really don't need a fancy IDE to run these. Just a simple text editor(VIM) and the command line. 
 
 
-Honestly C,C++ is better than Java. 
-```
+Languages I try to blend together:
+
+C -> C++ -> Java
+Python -> C -> C++ 
+
+If everything else fails just use bash to interface with the OS like a boss.
+
+
+
+
 
 
 
