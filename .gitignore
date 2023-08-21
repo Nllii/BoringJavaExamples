@@ -1,3 +1,6 @@
-.class 
-.so
+*.class 
+*.so
 notes.txt
+build
+.vscode
+
