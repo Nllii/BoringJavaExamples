@@ -15,21 +15,3 @@ extern "C" int subtraction(int a , int b){
 
 }
 
-
-
-// extern "C" int sort(int numbers[] , int size){
-//     // sort the values from least to greatest if 
-
-//     int number_length, sum = 0;
-//     double average;
-//     for (numbers = 0 ; number_length < size; ++number_length){
-//         sum += numbers[number_length];
-//     }
-//     average = double(sum)/ size ;
-//     return average;
-// }
-
-
-
-
-

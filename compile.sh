@@ -31,5 +31,9 @@ compileJ(){
 
 }   
 
-
+Jbin(){
+    echo "compiling binary file: $1 output:$2"
+    jar cfe "$1".jar Exercise."$1" Exercise/"$1".class
+    java -jar "$1".jar
+}
 "${@:1}" "${@:3}"
